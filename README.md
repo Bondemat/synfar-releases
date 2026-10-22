@@ -1,19 +1,26 @@
 # Synfar releases
 
-This repository hosts downloadable releases of Synfar Desktop.
+Download Synfar Desktop from [synfar.no/last-ned](https://www.synfar.no/last-ned)
+or [GitHub Releases](https://github.com/Bondemat/synfar-releases/releases).
 Application source is maintained separately.
 
-## Downloads
+## Requirements
 
-Download installers from [GitHub Releases](https://github.com/Bondemat/synfar-releases/releases).
-
-The initial macOS build supports Apple Silicon Macs running macOS 13 or later.
-macOS releases are signed by Opisense AS and notarized by Apple.
+The macOS installer supports Apple Silicon Macs running macOS 13 Ventura or later.
+It is signed by Opisense AS and notarized by Apple. Windows and Intel Mac
+installers are not available yet.
 
 ## Installation
 
-Open the DMG and drag Synfar into Applications. Launch Synfar from Applications
-and grant Microphone and Accessibility permissions when prompted.
+Open the DMG and drag Synfar into Applications. Launch Synfar from Applications,
+sign in or create an account, and grant Microphone and Accessibility permissions
+when prompted.
 
-Checksums are provided alongside installers. Automatic updates are not yet
-available; install a newer release manually when one is published.
+## Updates
+
+Synfar checks for updates automatically and downloads them in the background.
+Updates install when you exit the app. You can also check from the Synfar or tray
+menu. Finish recordings and uploads before updating.
+
+Download the DMG for manual installation. The ZIP, blockmaps and latest-mac.yml
+are used by the automatic updater. SHA-256 checksums accompany the installers.
